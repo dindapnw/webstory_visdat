@@ -1,0 +1,7 @@
+:root{--accent:#1F7FB5}.chip{display:inline-block;background:var(--plum);color:#fff;border-radius:999px;padding:.3rem 1rem;margin:.2rem;font-size:1.05rem}
+.kgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:.9rem;margin:.6rem 0}
+.kcard{background:#fff;border-radius:14px;border-top:6px solid;padding:1rem 1.1rem;box-shadow:0 2px 12px rgba(91,58,94,.08);transition:transform .25s}
+.kcard:hover{transform:translateY(-4px)}
+.kcard h5{font:700 1.1rem 'Space Grotesk',sans-serif;margin:0 0 .3rem;color:var(--plum)}
+.kcard p{font-size:.98rem;margin:.2rem 0 .5rem;line-height:1.55}.kcard small{color:#666}
+.outl li{font-size:1.02rem;margin-bottom:.4rem}
