@@ -72,10 +72,12 @@ Untuk membuat ulang `data/` dari data mentah: `python prepare_data.py "<folder d
 
 ## Keterbatasan
 
-- Peta menunjukkan keterkaitan antarwilayah, bukan hubungan sebab-akibat.
-- Perkawinan anak hanya tersedia per provinsi.
-- Data arus migrasi hanya untuk 2022 dan tidak dipisah menurut jenis kelamin.
-- Hasil pengelompokan bergantung pada pilihan indikator dan metode.
+(1) Asimetri temporal data, di mana penggunaan rentang tahun yang bervariasi (indikator 2024, proyeksi 2025, dan arus migrasi 2022) tidak dapat dihindari karena penceritaan visual mengacu pada rilis data publikasi paling mutakhir yang tersedia untuk masing-masing metrik; 
+(2) Level agregasi data migrasi, di mana matriks asal-tujuan (OD) tahun 2022 terpaksa menggunakan angka populasi umum akibat tidak tersedianya rilis data resmi yang terpilah berdasarkan jenis kelamin (sex-disaggregated data), dan estimasi sepihak tidak dilakukan demi menjaga validitas penelitian; 
+(3) Visualisasi yang ditampilkan hanya mengindikasikan asosiasi spasial, bukan hubungan sebab-akibat; 
+(4) Pengelompokan wilayah sensitif terhadap pemilihan indikator dan metode, sehingga berpotensi menyederhanakan kompleksitas profil provinsi; 
+(5) Angka persentase ekstrem pada sampel kabupaten berpopulasi kecil rentan memicu bias estimasi; serta 
+(6) Belum dilakukannya uji kebolehgunaan (usability testing) dengan pengguna nyata maupun optimasi antarmuka untuk perangkat seluler.
 
 ## Lisensi dan Atribusi
 
